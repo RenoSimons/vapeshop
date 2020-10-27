@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Liquids</title>
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/liquids.css">
+	<link rel="stylesheet" href="../css/animations.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<header>
+		<h1 id="delivery-message">FREE DELIVIRY FROM €29,99</h1>
+	</header>
+		<div id="landing">
+			<div id="landing-text">
+				<div id="landing-text-inner">
+					<h1>Vaping Store</h1>
+					<h2>Created by Reno Simons</h2>			
+				</div>
+			</div>
+			<div id="landing-image">
+				<img src="../images/vaping-landing.jpg" alt="">
+			</div>
+
+			<nav class="navbar">
+				<ul>
+					<li><a href="index.php">Home</a></li>
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">Our Products</button>
+							<div class="dropdown-content">
+							    <a href="beginnerModules.html">Beginner Modules</a>
+							    <a href="advancedModules.html">Advanced Modules</a>
+							    <a href="accessoires.html">Accessoires</a>
+							    <a href="liquids.html">E-liquids</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="">Our Promotions</a></li>
+					<li><a href="reviews.html">Reviews</a></li>
+					<li><a href="">Our Stores</a></li>
+				</ul>				
+			</nav>
+		</div>
+
+		<div id="juice-content">
+			<div id="side-box">
+				<h1>E-liquids</h1>
+				<h2><i class="arrow right"></i><a href="beginnerModules.html">Beginner Modules</a></h2>
+				<h2><i class="arrow right"></i><a href="advancedModules.html">Advanced Modules</a></h2>
+				<h2><i class="arrow right"></i><a href="accessoires.html">Accessoires</a></h2>
+				<h2><i class="arrow right"></i><a href="">Promotions</a></h2>
+				<h2><i class="arrow right"></i><a href="reviews.html">Reviews</a></h2>
+
+				<br>
+				<p><h2>Sort by:</h2> <select id="selector" onchange="getSelect(this)">
+								  <option value="">Select option</option>
+								  <option value="alphabet">A-Z</option>
+								  <option value="hilow">Price: high-low</option>
+								  <option value="lowhi">Price: low-high</option>
+								  <option value="rating">Rating</option>
+								</select>
+				</p>
+
+				<br>
+
+				<section class="container content-section">
+		            <h2 class="section-header">SHOPPING CART</h2>
+		            <div class="cart-row">
+		                <span class="cart-item cart-header cart-column"></span>
+		                <span class="cart-price cart-header cart-column"></span>
+		                <span class="cart-quantity cart-header cart-column"></span>
+		            </div>
+		            <div class="cart-items">
+		            </div>
+		            <div class="cart-total">
+		                <strong class="cart-total-title">Total</strong>
+		                <span class="cart-total-price">€0</span>
+		            </div>
+		            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+		        </section>
+								
+				<br>
+				<h2>Sign up for newsletter!</h2>	
+			</div>
+
+			<div id="items-box"></div>
+				
+		</div>
+
+	<footer>
+		<div id="legal-info">
+			<h1>Terms & Conditions</h1>
+			<h2>Privacy Policy</h2>
+			<h2>Terms & Conditions</h2>
+			<h2>Cookie Policy</h2>
+		</div>
+		<div class="socialmedia-icons">
+			<img class="social-icon" src="../images/twitter.png" alt="">
+			<img class="social-icon" src="../images/facebook.png" alt="">
+			<img class="social-icon" src="../images/instagram.png" alt="">
+		</div>
+	</footer>
+
+	<script src="../js/products/products.js"></script>
+	<script src="../js/shoppingcart.js"></script>
+	<script src="../js/eliquids.js"></script>
+	
+
+	
+</body>
+</html>

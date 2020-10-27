@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: auto; }
+
+header {
+  text-align: center;
+  font-size: 0.75em;
+  color: red; }
+
+.invisible {
+  opacity: 0; }
+
+@media (min-width: 320px) {
+  #landing #landing-image img {
+    height: 35vh;
+    width: 100%; }
+  #landing #landing-text {
+    position: absolute;
+    color: white;
+    opacity: 0.9;
+    font-size: 0.8rem;
+    margin-left: 8vw;
+    margin-top: 20vh; }
+  #landing #landing-text-inner h1 {
+    letter-spacing: 10px; }
+  #landing #landing-text-inner h2 {
+    margin-left: 3vw;
+    opacity: 0.7; }
+  #landing .navbar {
+    display: none; }
+  #tweets-sidebar {
+    display: none; }
+  #content {
+    padding-bottom: 20px; }
+    #content #flexbox-items {
+      padding-bottom: 20px; }
+      #content #flexbox-items img {
+        display: block;
+        width: 90%;
+        margin-left: 5%; }
+    #content .title-striped {
+      width: 100%;
+      text-align: center;
+      border-bottom: 2px solid #000;
+      line-height: 0.1em;
+      letter-spacing: 2.5px; }
+    #content #our-stores {
+      padding: 1em; }
+    #content .white-background {
+      background: #fff;
+      padding: 0 10px; }
+    #content .white-background2 {
+      font-size: 1.3em;
+      background: #fff;
+      padding: 0 10px; }
+    #content #our-vision {
+      letter-spacing: 2.5px;
+      padding: 1rem; }
+      #content #our-vision #center {
+        text-align: center; }
+      #content #our-vision p {
+        margin-top: 2em; }
+    #content #our-products {
+      padding: 0 15px; }
+    #content .product-title {
+      margin-top: 1.5em; }
+      #content .product-title h3 {
+        margin-left: 5vw; }
+    #content #our-promotions {
+      text-align: center; }
+      #content #our-promotions img {
+        width: 60vw;
+        height: 25vh; }
+      #content #our-promotions h1 {
+        font-size: 1.2em; }
+      #content #our-promotions h2 {
+        font-size: 1.2em; }
+      #content #our-promotions .striped {
+        padding-right: 20px;
+        text-decoration: line-through; }
+      #content #our-promotions .red {
+        color: red; }
+    #content .swiper-wrapper {
+      padding-bottom: 30px; }
+    #content .swiper-slide img {
+      width: 30vw; }
+    #content #service-contact {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #0f0f0f;
+      color: white;
+      height: 10vh;
+      padding: 5px; }
+      #content #service-contact h1 {
+        font-size: 0.75em; }
+      #content #service-contact img {
+        padding-right: 10px; }
+      #content #service-contact #contact {
+        width: 30px;
+        height: 30px; }
+      #content #service-contact #order {
+        width: 30px;
+        height: 40px; }
+      #content #service-contact #questions {
+        width: 30px;
+        height: 30px; }
+    #content #map {
+      width: 100%;
+      height: 70vh; }
+      #content #map img {
+        width: 50vw; }
+  footer {
+    background-color: #0f0f0f; }
+    footer .socialmedia-icons {
+      text-align: center; }
+      footer .socialmedia-icons .social-icon {
+        width: 30px;
+        padding: 15px; }
+    footer #legal-info {
+      color: white;
+      font-size: 0.5em;
+      font-family: arial;
+      text-align: center;
+      padding: 5px;
+      letter-spacing: 1.5px; } }
+
+@media (min-width: 1024px) {
+  #landing #landing-image img {
+    height: 30vh;
+    width: 80%;
+    margin-left: 10%;
+    object-fit: cover; }
+  #landing #landing-text {
+    font-size: 1.2rem;
+    margin-left: 13vw;
+    margin-top: 12vh; }
+  #landing #landing-text-inner h2 {
+    margin-left: 50vw; }
+  #landing .navbar {
+    display: block;
+    overflow: hidden;
+    background-color: #0f0f0f;
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px 0 10px 0; }
+    #landing .navbar ul {
+      padding: 0;
+      margin: 0;
+      margin-left: 10%; }
+      #landing .navbar ul li {
+        list-style: none; }
+  #landing .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 10px; }
+  #landing .dropdown {
+    float: left;
+    overflow: hidden; }
+  #landing .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0; }
+  #landing .navbar a:hover, #landing .dropdown:hover .dropbtn {
+    background-color: red; }
+  #landing .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+  #landing .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left; }
+  #landing .dropdown-content a:hover {
+    background-color: #ddd; }
+  #landing .dropdown:hover .dropdown-content {
+    display: block; }
+  .show-twitter-btn {
+    position: absolute;
+    margin-left: 172px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0f0f0f;
+    color: white;
+    font-size: 105%;
+    border: none;
+    box-shadow: none; }
+  #tweets-sidebar {
+    display: block;
+    position: absolute;
+    padding: 20px 20px 20px 100px;
+    margin-top: 50px; }
+  .hidden {
+    opacity: 0; }
+  #content {
+    width: 1024px;
+    margin: 0 auto; }
+    #content .product-title {
+      width: 492px;
+      overflow: auto; }
+      #content .product-title h3 {
+        margin-left: 2rem;
+        margin-top: 0; }
+      #content .product-title img {
+        width: 90%;
+        height: 80%;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    #content #flexbox-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-between;
+      justify-content: space-around; }
+    #content #our-promotions {
+      padding-bottom: 20px; }
+      #content #our-promotions .white-background {
+        font-size: 0.8em; }
+      #content #our-promotions .white-background2 {
+        font-size: 1.3em;
+        background: #fff;
+        padding: 0 10px; }
+    #content #our-promotions > div > div.swiper-wrapper {
+      padding: 20px 0 20px 0; }
+      #content #our-promotions > div > div.swiper-wrapper img {
+        max-width: 250px; }
+    #content #service-contact {
+      background-color: #0f0f0f;
+      padding: 0 30px 0 30px; }
+      #content #service-contact h1 {
+        font-size: 1em; }
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 80%;
+    /* The width is the width of the web page */
+    margin: 0 auto; }
+  #content-maps #first-heading {
+    font-size: 1em;
+    text-align: center; }
+  #content-maps #store1 {
+    max-width: 75%;
+    margin: 0; }
+  #content-maps #bodyContent {
+    display: flex; }
+  #content-maps .table-hours {
+    display: block; }
+  #content-maps p {
+    padding: 1em; }
+  .login-form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    padding: 20px; }
+    .login-form .text {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      color: white;
+      font-size: 80%;
+      background-color: #0f0f0f;
+      border: 0; }
+    .login-form .submit-btn {
+      width: 100%;
+      padding: 15px;
+      background-color: #0f0f0f;
+      border: 0;
+      box-sizing: border-box;
+      cursor: pointer;
+      font-weight: bold;
+      color: white; } }

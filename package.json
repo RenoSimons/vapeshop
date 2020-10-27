@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
+    "query-string": "^6.9.0"
+  },
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  }
+}

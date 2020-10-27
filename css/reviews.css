@@ -1,0 +1,77 @@
+#reviews-content {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.review-element {
+  display: flex;
+  max-width: 40vw;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.review-element h1 {
+  font-size: 18px;
+}
+
+.user-image {
+  border-radius: 50%;
+  padding: 20px;
+  width: 150px;
+}
+
+.rating-star {
+  width: 30px;
+}
+
+.review-element:nth-child(even) {
+  transform: translateX(70%);
+}
+
+#review-section {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#review-section h1 {
+  text-align: center;
+}
+
+.form-titles {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.input-review {
+  height: 200px;
+  width: 300px;
+}
+
+#thankyou-msg {
+  text-align: center;
+  padding: 20px;
+}
+
+#form > form > input[type=submit]:nth-child(7) {
+  padding: 5px;
+  margin-left: 135px;
+}
+
+#form > form > p:nth-child(2) > input[type=text] {
+  width: 300px;
+}
+
+#selector {
+  padding: 5px;
+}
+
+form {
+  margin-left: 100px;
+}
